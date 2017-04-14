@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Slider</title>
+    <meta content="Pancheliuha Victor" name="author">
+    <meta content="C&B" name="description">
+    <meta content="clothes shop, C&B" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <!--[if lt IE 9]>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="wrapper">
+    <div class="content-wrapper">
+        <!--header section-->
+        <header class="header" id="header">
+            <div class="container header__head">
+                <ul class="help-links__list">
+                    <li class="help-links__item"><a href="#" class="help-links__link">delivery</a></li>
+                    <li class="help-links__item"><a href="#" class="help-links__link">faq</a></li>
+                    <li class="help-links__item"><a href="#" class="help-links__link">help</a></li>
+                </ul>
+                <div class="choose-items">
+                    <select name="money-choose" id="money-choose" class="money-choose">
+                        <option value="dollars">dollars</option>
+                        <option value="uan">uan</option>
+                        <option value="euro">euro</option>
+                    </select>
+
+                    <select name="lang-choose" id="lang-choose" class="lang-choose">
+                        <option value="en">en</option>
+                        <option value="ru">ru</option>
+                        <option value="ua">ua</option>
+                    </select>
+                </div>
+
+
+            </div>
+            <div class="header__content">
+                 <div class="container header__content-wrapper">
+                      <div class="logo">C<span>&amp;</span>B</div>
+                      <ul class="nav__list">
+                          <li class="nav__item"><a href="#header" class="nav__link">home</a></li>
+                          <li class="nav__item"><a href="#catalog" class="nav__link">catalog</a></li>
+                          <li class="nav__item"><a href="#news" class="nav__link">news</a></li>
+                          <li class="nav__item"><a href="#" class="nav__link sale">sale</a></li>
+                          <li class="nav__item"><a href="#about" class="nav__link">about</a></li>
+                          <li class="nav__item"><a href="#" class="nav__link">contact</a></li>
+                      </ul>
+
+                     <div class="bag">
+                         <span class="bag__text">your bag</span>
+                         <span class="bag__counter">2</span>
+                         <div class="bag__zoom"><img src="assets/img/elems/zoom.png" alt="bag__zoom" class="bag__zoom__img"></div>
+                     </div>
+                 </div>
+            </div>
+
+
+        </header>
+        <!--content section-->
+        <section class="content container">
+            <h1 class="content__head" id="catalog">Catalog</h1>
+            <ul class="nav__list nav__list_contant">
+                <li class="nav__item"><a href="#" class="nav__link">all</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">t-shirts</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">sweaters</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">shorts</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">jackets</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">acesoires</a></li>
+            </ul>
+            <div class="content__items">
+                <div class="content__item-wrapper">
+                    <div class="content__item-img-wrapper">
+                        <img src="assets/img/products/product_1.png" alt="product_1" class="content__item-img">
+                    </div>
+                    <p class="content__item-description">Printed swimsuit</p>
+                    <span class="content__item-price">$23</span>
+                </div>
+                <div class="content__item-wrapper">
+                    <div class="content__item-img-wrapper">
+                        <img src="assets/img/products/product_2.png" alt="product_2" class="content__item-img">
+                    </div>
+                    <p class="content__item-description">Jogging bermuda shorts</p>
+                    <span class="content__item-price sale__out">$23</span>
+                    <span class="sale__price">$12</span>
+                </div>
+                <div class="content__item-wrapper">
+                    <div class="content__item-img-wrapper">
+                        <img src="assets/img/products/product_3.png" alt="product_3" class="content__item-img">
+                        <div class="new__item">new</div>
+                    </div>
+                    <p class="content__item-description">Basic beach flip flops</p>
+                    <span class="content__item-price">$23</span>
+                </div>
+                <div class="content__item-wrapper">
+                    <div class="content__item-img-wrapper">
+                        <img src="assets/img/products/product_4.png" alt="product_4" class="content__item-img">
+                    </div>
+                    <p class="content__item-description">Black sunglasses</p>
+                    <span class="content__item-price">$23</span>
+                </div>
+            </div>
+            <div class="content__items">
+                <div class="content__item-wrapper">
+                    <div class="content__item-img-wrapper">
+                        <img src="assets/img/products/product_5.png" alt="product_5" class="content__item-img">
+                    </div>
+                    <p class="content__item-description">Long sleeved twill shirt</p>
+                    <span class="content__item-price">$23</span>
+                </div>
+                <div class="content__item-wrapper">
+                    <div class="content__item-img-wrapper">
+                        <img src="assets/img/products/product_6.png" alt="product_6" class="content__item-img">
+                    </div>
+                    <p class="content__item-description">Basic swimsuit</p>
+                    <span class="content__item-price">$23</span>
+                </div>
+                <div class="content__item-wrapper">
+                    <div class="content__item-img-wrapper">
+                        <img src="assets/img/products/product_7.png" alt="product_7" class="content__item-img">
+                    </div>
+                    <p class="content__item-description">Bleached shorts</p>
+                    <span class="content__item-price">$23</span>
+                </div>
+                <div class="content__item-wrapper">
+                    <div class="content__item-img-wrapper">
+                        <img src="assets/img/products/product_8.png" alt="product_8" class="content__item-img">
+                    </div>
+                    <p class="content__item-description">T-shirt with lower panel</p>
+                    <span class="content__item-price sale__out">$23</span>
+                    <span class="sale__price">$12</span>
+                </div>
+            </div>
+
+            <a href="#" class="load__more">load more...</a>
+
+        </section>
+        <!--sucscribe section-->
+        <section class="subscribe" id="news">
+            <p class="subscribe__text">subscribe</p>
+            <p class="subscribe__title">Stay updated on news</p>
+            <form action="#" class="subscribe__form">
+                <div class="subscribe__input-wrapper">
+                    <input type="email" class="subscribe__email" placeholder="your email adress" value="">
+                    <input type="submit" value=">" class="subscribe__input">
+                </div>
+            </form>
+        </section>
+    </div>
+    
+    <footer class="footer" id="about">
+        <div class="footer__content">
+            <div class="container footer__content-wrapper">
+                <div class="logo">C<span>&amp;</span>B</div>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#header" class="nav__link">home</a></li>
+                    <li class="nav__item"><a href="#catalog" class="nav__link">catalog</a></li>
+                    <li class="nav__item"><a href="#news" class="nav__link">news</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">sale</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">about</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">contact</a></li>
+                </ul>
+
+                <div class="copyright">
+                    <span class="copyright__text">©2010 - 2016 All rights reserved</span>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+</div>
+<script src="assets/js/foundation.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
